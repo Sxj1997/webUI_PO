@@ -39,9 +39,9 @@ class TestLogin():
         """
         无验证码登录
         """
-        #page = LoginPage()
-        #page.open()
-        #page.turn_password()
+        # page = LoginPage()
+        # page.open()
+        # page.turn_password()
         page.password_clear()
         page.name_clear()
         page.name_input(name)
